@@ -1,0 +1,17 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "extends": [
+        "airbnb-base",
+        "prettier",
+        "prettier/react",
+        "plugin:react/recommended",
+        "plugin:react-native/all"
+    ],
+    "plugins": ["react", "react-native","prettier"]
+}
